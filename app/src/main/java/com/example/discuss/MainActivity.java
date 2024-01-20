@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    // this is the open UI function
+    // this is the open UI function jerry
     public void openUI(String name){
         Intent intent = new Intent(this, UserInterface.class);
         intent.putExtra(DISPLAY_NAME, name);
